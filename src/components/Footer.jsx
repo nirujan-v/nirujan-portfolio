@@ -18,7 +18,7 @@ export default function Footer() {
               href="https://www.linkedin.com/in/nirujan-velvarathan-5a37b1197/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white"
+              className="text-gray-400 hover:text-black"
             >
               LinkedIn
             </a>
