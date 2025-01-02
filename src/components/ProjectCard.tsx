@@ -8,15 +8,31 @@ type Project = {
   
   export default function ProjectCard({ project }: { project: Project }) {
     return (
-      <div className="border rounded-lg overflow-hidden shadow-lg">
-        <img src={project.image} alt={project.title} className="w-full h-40 object-cover" />
-        <div className="p-4">
-          <h3 className="text-xl font-bold">{project.title}</h3>
-          <p className="text-gray-700">{project.description}</p>
-          <a href={project.link} className="text-blue-500 mt-2 block">
-            View Project
-          </a>
+      <div className=" w-auto h-[90vh] flex flex-col justify-evenly items-center bg-red-600">
+        <div className="bg-green-600">
+        <div className="bg-yellow-500 flex flex-col items-center">
+        <h1>Project Gallery</h1>
+        <h2>Here are some of the projects I worked on</h2>
         </div>
+        
+
+
+        <div className="flex justify-around bg-blue-500">
+
+          <div className="p-14">
+            <h1>Sentiment Analysis </h1>
+            
+          </div>
+
+          <div className="p-14">
+          <h1>Hand Gesture Recognition</h1>
+          </div>
+
+        </div>
+        </div>
+
+
+
       </div>
     );
   }

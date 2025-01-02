@@ -1,7 +1,5 @@
 import '@styles/globals.css';
-import Navbar from '@components/Navbar';
-import Footer from '@components/Footer';
-import Landing from '../components/Landing'
+import { Navbar, Footer, Landing, About, Project} from '../components';
 
 export const metadata = {
   title: 'My Portfolio',
@@ -15,6 +13,9 @@ export default function RootLayout({ children }) {
         <Navbar />
         
         <Landing />
+        <About />
+        <Project/>
+
         
         <Footer />
       </body>
