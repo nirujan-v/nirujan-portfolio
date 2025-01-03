@@ -12,7 +12,7 @@ export default function Example() {
               Let’s work together to bring meaningful ideas to life! </p>
         </div>
         <div id="about-img">
-            <img src="images/genius.png" className="max-w-md"></img>
+            <img src="images/genius.png" className="max-w-md h-[70vh]"></img>
         </div>
         
         
