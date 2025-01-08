@@ -54,33 +54,33 @@ type Project = {
       */
       <div className="flex items-center justify-center min-h-screen container mx-auto">
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-2">
         
         <div className="rounded-xl shadow-lg">
           <div className="p-5 flex flex-col">
-            <div className="rounded-xl overflow-hidden">
-              <img src="images/hand_gesture.png" alt="" />
+            <div className="rounded-xl h-80 overflow-hidden">
+              <img className="w-full  object-cover" src="images/hand_gesture.png" alt="" />
             </div>
-            <h5 className="text-2xl md:text-3xl font-medium mt-3">Camp Batu Gede</h5>
+            <h5 className="text-2xl md:text-3xl font-medium mt-3">Hand Gesture Detector</h5>
             <p className="text-slate-500 text-lg mt-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus excepturi alias ullam reiciendis.
+              Built a local app that can detect live hand gestures and can use those gestures to apply image manipulation techniques. 
             </p>
-            <a href="#" className="text-center bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">
+            <a href="https://github.com/amitsarvate/hand-gesture-recognition-app" className="text-center bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">
               Explore
             </a>
           </div>
         </div>
 
-        <div className="rounded-xl shadow-lg">
+        <div className="rounded-xl  shadow-lg">
           <div className="p-5 flex flex-col">
-            <div className="rounded-xl overflow-hidden">
-              <img src="images/sentiment.jpg" alt="" />
+            <div className="rounded-xl h-80 overflow-hidden">
+              <img className="w-full  object-cover" src="images/sentiment.jpg" alt="" />
             </div>
-            <h5 className="text-2xl md:text-3xl font-medium mt-3">Camp Batu Gede</h5>
+            <h5 className="text-2xl md:text-3xl font-medium mt-3">Movie Sentiment Predictor</h5>
             <p className="text-slate-500 text-lg mt-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus excepturi alias ullam reiciendis.
+              Built an app that detects whether a given movie review is positive or negative using machine learning
             </p>
-            <a href="#" className="text-center bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">
+            <a href="https://github.com/amitsarvate/sentiment-analysis-ml" className="text-center bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">
               Explore
             </a>
           </div>
